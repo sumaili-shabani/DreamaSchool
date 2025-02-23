@@ -1,0 +1,102 @@
+.white--text {
+    color: white;
+}
+.red--text{
+    color: red;
+}
+
+.primary {
+    background-color: blue;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+
+.warning {
+    background-color: #FCA500;
+    color: white;
+}
+
+.success {
+    background-color: #00ff48;
+    color: white;
+}
+
+.danger {
+    background-color: #ff0000;
+    color: white;
+}
+
+.search-set .btn-filter {
+    background: #FCA500;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.v-btn--fab.v-size--small {
+    height: 47px;
+    width: 40px;
+    margin-top: -5px;
+}
+
+/* pagination */
+
+.theme--light.v-pagination .v-pagination__item--active {
+    background: #FCA500;
+    color: #fff;
+}
+
+.theme--light.v-pagination .v-pagination__item {
+    /* background: #0669BC; */
+    color: #1F1F1F;
+}
+
+/* forme */
+.v-messages__message {
+    line-height: 12px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    color: red;
+}
+
+@media (min-width: 991px) {
+    .mini-sidebar .sidebar {
+        width: 80px;
+    }
+}
+
+
+.v-dialog {
+    border-radius: 4px;
+    margin: 24px;
+    overflow-y: auto;
+    pointer-events: auto;
+    transition: .3s cubic-bezier(.25,.8,.25,1);
+    width: 100%;
+    margin-top: 100px;
+    /* margin-bottom: 50px; */
+    z-index: inherit;
+    box-shadow: 0 11px 15px -7px rgba(0, 0, 0, .2), 0 24px 38px 3px rgba(0, 0, 0, .14), 0 9px 46px 8px rgba(0, 0, 0, .12);
+}
+
+.delete{
+    color: red;
+}
+.edit{
+    color: blue;
+}
+.v-divider{
+    margin: 2px;
+}
+

@@ -1,0 +1,6 @@
+php artisan migrate --path=/database/migrations/2021_12_18_094824_create_roles_table.php
+php artisan migrate --path=/database/migrations/2014_10_12_000000_create_users_table.php
+
+
+
+
